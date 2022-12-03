@@ -1,7 +1,7 @@
 # We need to find the Elf which carries the most calories. 
 
-#file = open("/home/lalvarez/dev/advent-of-code/day-1/test_ds.log")
-file = open("/home/lalvarez/dev/advent-of-code/day-1/real_ds.log")
+#file = open("test_ds.log")
+file = open("real_ds.log")
 
 inventories = file.read()
 inventories = inventories.split("\n\n")

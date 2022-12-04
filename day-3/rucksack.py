@@ -1,8 +1,5 @@
 # Day-3. We are trying to remove the wrong items from each rucksacks.
 
-import numpy as np
-
-#file = open("test_ds.log")
 file = open("real_ds.log")
 rucksacks = file.read()
 rucksacks = rucksacks.split("\n")

@@ -4,9 +4,9 @@ import numpy as np
 
 case_mat = np.array([[4, 8, 3], [1, 5, 9], [7, 2, 6]])
 
-case_list=[]
-lines=[]
-col=[]
+case_list = []
+lines = []
+col = []
 
 with open('real_ds.log') as file:
     for line in file:
